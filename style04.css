@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Andika', sans-serif;
+    background-image: url('/Users/uyenphuonghuynh/Downloads/IMG_4983 2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    transition: color 0.3s ease-in-out;
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust the alpha value for the sheer effect */
+}
+
+.letter {
+    /* Content area color */
+   padding: 20px;
+   width: 80%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: rgba(239, 232, 232, 1);
+   background-color: rgba(81, 76, 76, 0.3);
+   
+}

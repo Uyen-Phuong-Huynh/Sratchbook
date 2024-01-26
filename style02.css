@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Andika', sans-serif;
+    background-image: url('/Users/uyenphuonghuynh/Downloads/IMG_4097.JPG');
+    background-position: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.cover {
+    background-color: rgba(255, 255, 255, 0.6); /* Cover color */
+    padding: 20px;
+    text-align: top;
+}
+
+.cover h1 {
+    color: black; /* Text color for the cover title */
+    margin: 0;
+}
+
+.content {
+     /* Content area color */
+    padding: 20px;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h2 {
+    color: #333; /* Heading color for the table of contents */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: whitesmoke; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
